@@ -7,7 +7,7 @@ body {
 
 body {
   /* Fondo predeterminado para dispositivos más grandes */
-  background: url(/img/bg-pc.jpg) top center no-repeat;
+  background: url(../img/bg-pc.jpg) top center no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -70,7 +70,7 @@ button {
 
   /* Estilo específico para dispositivos móviles */
   body {
-    background: url(/img/bg-movil.jpg);
+    background: url(../img/bg-movil.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
