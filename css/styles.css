@@ -1,0 +1,77 @@
+body {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+
+body {
+  /* Fondo predeterminado para dispositivos más grandes */
+  background: url(/img/bg-pc.jpg) top center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#calculator {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: large;
+}
+
+input,
+select,
+button {
+  margin-bottom: 10px;
+  border-radius: 25px;
+  /* border: #ffffff80; */
+  border: none;
+  text-align: center;
+  font-size: large;
+}
+
+#result {
+  margin-top: 10px;
+}
+
+.intro {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff80;
+  padding: 10px 10px;
+  border-radius: 25px;
+  height: 80vh;
+  margin-top: 25px;
+}
+
+.calcular {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 25px;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* Estilo específico para dispositivos móviles */
+  body {
+    background: url(/img/bg-movil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

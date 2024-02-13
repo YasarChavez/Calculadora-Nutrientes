@@ -1,0 +1,46 @@
+{
+    "foods": [
+        {
+            "name": "Arroz",
+            "calories": 129,
+            "protein": 2.7,
+            "carbs": 28.2,
+            "fat": 0.3
+        },
+        {
+            "name": "Pollo",
+            "calories": 165,
+            "protein": 31,
+            "carbs": 0,
+            "fat": 3.6
+        },
+        {
+            "name": "Leche chocolatada",
+            "calories": 62,
+            "protein": 3,
+            "carbs": 10,
+            "fat": 1.1
+        },
+        {
+            "name": "Leche descremada  en polvo",
+            "calories": 36,
+            "protein": 3.5,
+            "carbs": 5.1,
+            "fat": 0.1
+        },
+        {
+            "name": "Leche entera",
+            "calories": 57,
+            "protein": 3,
+            "carbs": 4.5,
+            "fat": 3
+        },
+        {
+            "name": "Leche entera azucarada",
+            "calories": 79,
+            "protein": 3,
+            "carbs": 10,
+            "fat": 3
+        }
+    ]
+}
