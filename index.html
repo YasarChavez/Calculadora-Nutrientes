@@ -21,7 +21,6 @@
         <div class="container text-center">
             <div class="intro">
                 <h1>Calculadora de Nutrientes</h1>
-
                 <div id="calculator">
                     <div>
                         <label for="food-select"><span class="material-symbols-outlined"> restaurant_menu </span>&nbsp;Selecciona un alimento:</label>
@@ -31,11 +30,14 @@
                         </datalist>
                     </div>
                     <div>
-                        <label for="grams"><span class="material-symbols-outlined"> scale </span>&nbsp;Cantidad de gramos:</label>
-                        <input type="number" id="grams" placeholder="100" />
+                        <label for="grams"><span class="material-symbols-outlined"> scale </span>&nbsp;Cantidad de gr/ml:</label>
+                        <input type="number" id="grams" value="100"/>
                         <br />
                         <br />
-                        <button id="calculate-btn"><span class="material-symbols-outlined"> calculate </span>&nbsp;Calcular</button>
+                        <div class="botones">
+                            <button id="calculate-btn"><span class="material-symbols-outlined"> calculate </span>&nbsp;Calcular</button>
+                            <button id="clean-btn"><span class="material-symbols-outlined"> mop </span>&nbsp;Limpiar</button>
+                        </div>
                     </div>
                     <hr />
                     <div id="result">

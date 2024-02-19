@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const foodInput = document.getElementById("food-select");
     const gramsInput = document.getElementById("grams");
     const calculateBtn = document.getElementById("calculate-btn");
+    const cleanBtn = document.getElementById("clean-btn");
     const resultDiv = document.getElementById("result");
 
     let foods = []; // Array to store food data
@@ -16,12 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
             const protein = selectedFoodData.protein * (grams / 100);
             const carbs = selectedFoodData.carbs * (grams / 100);
             const fat = selectedFoodData.fat * (grams / 100);
-
+            // <span></span>
             resultDiv.innerHTML = `
-        <p>Calorías: ${calories.toFixed(2)}</p>
-        <p>Proteínas: ${protein.toFixed(2)}</p>
-        <p>Carbohidratos: ${carbs.toFixed(2)}</p>
-        <p>Grasas: ${fat.toFixed(2)}</p>
+        <p><span>Calorías:</span> ${calories.toFixed(2)} gr.</p>
+        <p><span>Proteínas:</span> ${protein.toFixed(2)} gr.</p>
+        <p><span>Carbohidratos:</span> ${carbs.toFixed(2)} gr.</p>
+        <p><span>Grasas:</span> ${fat.toFixed(2)} gr.</p>
       `;
         } else {
             resultDiv.textContent = "Por favor, selecciona un alimento y una cantidad válida.";
@@ -30,6 +31,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Event listener for the calculate button
     calculateBtn.addEventListener("click", calculateNutrients);
+
+    // Event listener for the clean button
+    cleanBtn.addEventListener("click", function () {
+        foodInput.value = "";
+        gramsInput.value = "100";
+        resultDiv.textContent = "";
+    });
 
     // Fetch the JSON data
     fetch("data/foods.json")

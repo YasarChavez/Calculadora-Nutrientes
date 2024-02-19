@@ -39,8 +39,12 @@ button {
   font-size: large;
 }
 
+/* Resultados */
 #result {
   margin-top: 10px;
+}
+#result span {
+  font-weight: bold;
 }
 
 .intro {
@@ -55,6 +59,18 @@ button {
 }
 
 .calcular {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  border-radius: 25px;
+}
+
+.botones button {
+  margin-right: 1.5rem;
+}
+
+.sorter input {
   display: grid;
   align-items: center;
   justify-content: center;
