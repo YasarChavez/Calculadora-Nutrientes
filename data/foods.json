@@ -76,6 +76,41 @@
             "protein": 3.8,
             "carbs": 21,
             "fat": 3.2
+        },
+        {
+            "name": "Yogur descremado saborizado",
+            "calories": 34.5,
+            "protein": 3.6,
+            "carbs": 4.4,
+            "fat": 3.2
+        },
+        {
+            "name": "Queso ¨Philadelphia¨ ligth",
+            "calories": 200,
+            "protein": 10,
+            "carbs": 6.6,
+            "fat": 16.6
+        },
+        {
+            "name": "Queso Blanco diet",
+            "calories": 100,
+            "protein": 9.9,
+            "carbs": 7.4,
+            "fat": 3.5
+        },
+        {
+            "name": "Queso cheddar",
+            "calories": 403,
+            "protein": 24.9,
+            "carbs": 1.28,
+            "fat": 33.15
+        },
+        {
+            "name": "Queso cottage",
+            "calories": 95,
+            "protein": 11.4,
+            "carbs": 2,
+            "fat": 4.5
         }
     ]
 }

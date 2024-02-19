@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
             const fat = selectedFoodData.fat * (grams / 100);
             // <span></span>
             resultDiv.innerHTML = `
-        <p><span>Calorías:</span> ${calories.toFixed(2)} gr.</p>
-        <p><span>Proteínas:</span> ${protein.toFixed(2)} gr.</p>
-        <p><span>Carbohidratos:</span> ${carbs.toFixed(2)} gr.</p>
-        <p><span>Grasas:</span> ${fat.toFixed(2)} gr.</p>
+        <p><span>Calorías:</span> ${calories.toFixed(2)}</p>
+        <p><span>Proteínas:</span> ${protein.toFixed(2)}</p>
+        <p><span>Carbohidratos:</span> ${carbs.toFixed(2)}</p>
+        <p><span>Grasas:</span> ${fat.toFixed(2)}</p>
       `;
         } else {
             resultDiv.textContent = "Por favor, selecciona un alimento y una cantidad válida.";
